@@ -1,4 +1,4 @@
-cat > .github/workflows/cicd.yml << 'EOF'
+
 name: Angular CI/CD
 
 on:
@@ -48,4 +48,3 @@ jobs:
       - name: Desplegar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-EOF
